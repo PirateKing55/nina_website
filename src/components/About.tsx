@@ -27,14 +27,14 @@ const AboutSection: React.FC = () => {
                         <div>
                             <h2 className="text-2xl font-semibold text-primary mb-2">Vision:</h2>
                             <p className="text-secondary">
-                                To impact the most number of pre-K and K-12 students worldwide with our Ed-Tech platform
+                                To impact the most number of pre-K and K-12 students worldwide with our Ed-Tech platform.
                             </p>
                         </div>
 
                         <div>
                             <h2 className="text-2xl font-semibold text-primary mb-2">Future Goals:</h2>
                             <p className="text-secondary">
-                                I see the company heading for huge success in the next 5-10 years and the future of language learning
+                                I see Happy Plum capturing the US market and would like to expand to asia and europe, and be the global leader in language learning solutions.
                             </p>
                         </div>
 

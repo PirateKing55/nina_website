@@ -78,7 +78,7 @@ const HomeSection: React.FC = () => {
                         Founder & CEO of Happy Plum
                     </h2>
                     <p className="text-secondary text-lg md:text-xl mb-8">
-                        I am a lifelong educator and have worked with children from age 0 all the way through high school age. My mission is to give the next generation the tools that they can use for future global success.
+                        I am a lifelong educator and passionate teacher and entrepreneur whos worked with students of all ages ranging from 1- high school.
                     </p>
 
                     {/* Buttons */}

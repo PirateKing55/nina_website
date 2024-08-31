@@ -74,7 +74,7 @@ const BlogsSection: React.FC = () => {
                 </div>
                 <a href='https://councils.forbes.com/profile/Nina-Greenwood-Founder-CEO-Happy-Plum-Language-Learning/bd3b38c8-972b-4d30-88a8-7937053e534c'
                     target='_blank' rel='noopener noreferrer'
-                    className="mt-7 text-primary font-semibold text-xl">More Blogs &gt;</a>
+                    className="mt-7 text-primary font-semibold text-xl underline">More Blogs &gt;</a>
             </section>
         </Layout>
     );
