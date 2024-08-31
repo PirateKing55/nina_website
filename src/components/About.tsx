@@ -38,13 +38,13 @@ const AboutSection: React.FC = () => {
                             </p>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <h2 className="text-2xl font-semibold text-primary mb-2">Industry Impact:</h2>
                             <ul className="list-disc pl-5 text-secondary">
                                 <li>Personalized learning will become the new norm</li>
                                 <li>The importance of early language education</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
