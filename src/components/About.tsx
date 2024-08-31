@@ -16,8 +16,8 @@ const AboutSection: React.FC = () => {
                     <div className="md:w-1/2 flex flex-col items-start p-8 bg-primary text-background rounded-lg shadow-lg">
                         <h2 className="text-2xl font-semibold mb-4">Highlighted Achievements:</h2>
                         <ul className="list-disc pl-5 space-y-2">
-                            <li>2015 US Department of State NSLIY</li>
-                            <li>2018 US Department of State CLS</li>
+                            <li>2015 US Department of State <a className='underline' href='https://www.nsliforyouth.org/' target='_blank'>NSLIY</a></li>
+                            <li>2018 US Department of State <a className='underline' href='https://clscholarship.org/' target='_blank'>CLS</a></li>
                             <li>5+ years experience in the education industry</li>
                         </ul>
                     </div>
@@ -27,7 +27,7 @@ const AboutSection: React.FC = () => {
                         <div>
                             <h2 className="text-2xl font-semibold text-primary mb-2">Vision:</h2>
                             <p className="text-secondary">
-                                To impact the most number of pre-K and K-12 students worldwide with our ed tech platform
+                                To impact the most number of pre-K and K-12 students worldwide with our Ed-Tech platform
                             </p>
                         </div>
 
