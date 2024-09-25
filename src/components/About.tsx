@@ -11,8 +11,8 @@ const AboutSection: React.FC = () => {
       <br />
       <br />
       <Layout className="myAbout">
-        <InvisibleButton top="207%" left="23.3%" width="100px" height="40px" link="https://nsliforyouth.org/" target="_blank" backgroundColor="transparent" />
-        <InvisibleButton top="207%" left="47.5%" width="100px" height="40px" link="https://clscholarship.org/" target="_blank" backgroundColor="transparent" />
+        <InvisibleButton top="208.5%" left="23.3%" width="90px" height="37px" link="https://nsliforyouth.org/" target="_blank" backgroundColor="transparent" />
+        <InvisibleButton top="208.5%" left="47.5%" width="90px" height="37px" link="https://clscholarship.org/" target="_blank" backgroundColor="transparent" />
 
         <section className="flex flex-col gap-8 bg-background" style={{ visibility: "hidden" }}>
           <Heading heading="About Me" />

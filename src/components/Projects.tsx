@@ -7,7 +7,7 @@ import InvisibleButton from "./InvisibleButton.jsx";
 const Projects: React.FC = () => {
   return (
     <Layout className="myProjects">
-      <InvisibleButton top="337%" left="40.5%" width="245px" height="60px" link="https://www.happy-plum.com" target="_blank" />
+      <InvisibleButton top="348%" left="40.5%" width="235px" height="60px" link="https://www.happy-plum.com" target="_blank" />
       <section className="w-full flex flex-col items-center" style={{ visibility: "hidden" }}>
         {/* Page Heading */}
         <Heading heading="Projects" />
