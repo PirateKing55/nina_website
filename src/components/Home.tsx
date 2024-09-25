@@ -1,7 +1,7 @@
 import React from "react";
 import nina from "../assets/images/nina.jpg";
 import Layout from "./Layout";
-import InvisibleButton from "./InvisibleButton.jsx";
+import InvisibleButton from "./InvisibleButton";
 
 const HomeSection: React.FC = () => {
   return (

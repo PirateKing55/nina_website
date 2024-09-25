@@ -27,7 +27,7 @@ const blogs: Blog[] = [
 
 const MediaSection: React.FC = () => {
   return (
-    <Layout className="myIndustryImpact">
+    <Layout id="n-industry-impact" className="myIndustryImpact">
       <section className="w-full flex flex-col items-center" style={{ visibility: "hidden" }}>
         {/* Page Heading */}
         <Heading heading="Media" />

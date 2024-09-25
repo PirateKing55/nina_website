@@ -2,11 +2,11 @@ import React from "react";
 import Layout from "./Layout";
 import Heading from "./Heading";
 import happyPlumLogo from "../assets/images/happyPlumLogo.jpeg";
-import InvisibleButton from "./InvisibleButton.jsx";
+import InvisibleButton from "./InvisibleButton";
 
 const Projects: React.FC = () => {
   return (
-    <Layout className="myProjects">
+    <Layout id="n-projects" className="myProjects">
       <InvisibleButton top="348%" left="40.5%" width="235px" height="60px" link="https://www.happy-plum.com" target="_blank" />
       <section className="w-full flex flex-col items-center" style={{ visibility: "hidden" }}>
         {/* Page Heading */}

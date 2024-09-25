@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import images from "../assets";
+import happyPlumLogo from "../assets/images/happyPlumLogo.jpeg";
 
 const Navbar: React.FC = () => {
   const [active, setActive] = useState<string>("Home");
@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex-shrink-0">
           <a href="https://happy-plum.com" target="_blank" className="text-white text-2xl font-bold">
-            <img src={images.happyPlumLogo} alt="Logo" className="h-10 inline-block mr-2" />
+            <img src={happyPlumLogo} alt="Logo" className="h-10 inline-block mr-2" />
             Happy Plum
           </a>
         </div>
