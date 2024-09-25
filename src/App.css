@@ -1,0 +1,26 @@
+.myHome {
+  background: url("./assets/images/figma1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.myAbout {
+  background: url("./assets/images/figma2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.myProjects {
+  background: url("./assets/images/figma3.png");
+  background-position: center;
+  /* background-size: cover; */
+  background-size: 120%;
+  /* background-repeat: repeat; */
+  /* background-attachment: fixed; */
+}
+
+.myIndustryImpact {
+  background: url("./assets/images/figma4.png");
+  background-position: center;
+  background-size: cover;
+}
