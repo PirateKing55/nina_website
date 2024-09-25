@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./Layout";
 import Heading from "./Heading";
-import InvisibleButton from "./InvisibleButton.jsx";
+import InvisibleButton from "./InvisibleButton";
 
 const AboutSection: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const AboutSection: React.FC = () => {
       <br />
       <br />
       <br />
-      <Layout className="myAbout">
+      <Layout id="n-about" className="myAbout">
         <InvisibleButton top="208.5%" left="23.3%" width="90px" height="37px" link="https://nsliforyouth.org/" target="_blank" backgroundColor="transparent" />
         <InvisibleButton top="208.5%" left="47.5%" width="90px" height="37px" link="https://clscholarship.org/" target="_blank" backgroundColor="transparent" />
 
@@ -48,7 +48,7 @@ const AboutSection: React.FC = () => {
 
               <div>
                 <h2 className="text-2xl font-semibold text-primary mb-2">Future Goals:</h2>
-                <p className="text-secondary">I see Happy Plum capturing the US market and would like to expand to asia and europe, and be the global leader in language learning solutions.</p>
+                <p className="text-secondary">I see Happy Plum capturing the US market and would like to expand to asia and europe, and be the global leader in language learning solutions.</p>
               </div>
             </div>
           </div>

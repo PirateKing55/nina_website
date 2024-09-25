@@ -2,7 +2,7 @@ import React from "react";
 
 interface HeadingProps {
   heading: string;
-  className?: string; // Optional className for additional styling
+  className?: string;
 }
 
 const Heading: React.FC<HeadingProps> = ({ heading, className }) => {
