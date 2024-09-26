@@ -38,6 +38,8 @@ const InvisibleButton: React.FC<InvisibleButtonProps> = ({ top, right, bottom, l
 
 export default InvisibleButton;
 
+//
+// JSX
 // import React from "react";
 
 // const InvisibleButton = ({ top, right, bottom, left, width, height, link, target }) => {
