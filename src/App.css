@@ -24,3 +24,15 @@
   background-position: center;
   background-size: cover;
 }
+
+/* Responsive Styling */
+@media (max-width: 800px) {
+  .myHome,
+  .myAbout,
+  .myProjects,
+  .myIndustryImpact {
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
